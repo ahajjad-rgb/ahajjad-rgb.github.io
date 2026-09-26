@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Abdullah S. Hajjad | Healthcare Executive & Hospital Leadership</title>
-<meta name="description" content="Official professional profile of Abdullah S. Hajjad, a Saudi healthcare executive focused on hospital leadership, healthcare operations, patient experience, quality, patient safety, and strategic execution.">
+<meta name="description" content="Official professional profile of Abdullah S. Hajjad, a Saudi healthcare executive focused on hospital leadership, healthcare operations, patient flow, patient experience, quality, patient safety, and strategic execution.">
 <meta name="author" content="Abdullah S. Hajjad">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://ahajjad-rgb.github.io/">
@@ -228,6 +228,30 @@ h2{
 .date{font-weight:800;color:var(--teal)}
 .item h3{margin:0 0 5px}
 .item p{margin:0;color:var(--muted)}
+
+.highlights-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px
+}
+.highlight-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:24px
+}
+.highlight-card h3{margin:0 0 8px}
+.highlight-card p{margin:0;color:var(--muted)}
+.highlight-card .tag{
+  display:inline-block;
+  margin-bottom:10px;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--teal)
+}
+
 .credentials{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -267,16 +291,28 @@ footer .wrap{
 
 @media(max-width:820px){
   .hero,.section-head{grid-template-columns:1fr}
-  .hero{padding-top:52px;gap:34px}
-  .portrait-wrap{justify-self:stretch;max-width:100%}
-  .portrait{aspect-ratio:4/4.8;object-position:center 18%}
-  .portrait-card{
-    left:18px;
-    right:18px;
-    bottom:18px;
-    width:auto
+  .hero{padding-top:52px;gap:32px}
+  .portrait-wrap{
+    justify-self:center;
+    width:min(82vw,360px);
+    max-width:360px
   }
-  .grid,.credentials{grid-template-columns:1fr}
+  .portrait{
+    width:100%;
+    aspect-ratio:3/4;
+    object-fit:cover;
+    object-position:center 24%;
+    border-radius:24px
+  }
+  .portrait-card{
+    left:14px;
+    right:14px;
+    bottom:14px;
+    width:auto;
+    padding:14px 16px
+  }
+  .portrait-card span{font-size:.88rem}
+  .grid,.credentials,.highlights-grid{grid-template-columns:1fr}
   .item{grid-template-columns:1fr;gap:4px}
   .navlinks{display:none}
   main section{padding:58px 0}
@@ -294,6 +330,7 @@ footer .wrap{
     <a href="#about">About</a>
     <a href="#focus">Leadership Focus</a>
     <a href="#experience">Experience</a>
+    <a href="#highlights">Career Highlights</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </div>
@@ -417,6 +454,86 @@ footer .wrap{
         Leadership built around clear accountability, multidisciplinary collaboration,
         measurable improvement, and sustainable execution.
       </p>
+    </div>
+  </div>
+</section>
+
+
+<section id="highlights" class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Career Highlights</div>
+        <h2>Selected leadership and institutional achievements</h2>
+      </div>
+      <div>
+        <p class="intro">
+          Selected highlights from executive hospital leadership, operational improvement,
+          quality, patient experience, and leadership development.
+        </p>
+        <p class="intro arabic" lang="ar">
+          أبرز محطات الخبرة القيادية والتنفيذية في إدارة المستشفيات، وتحسين الأداء التشغيلي،
+          والجودة وسلامة المرضى، وتجربة المستفيد، وتطوير القيادات الصحية.
+        </p>
+      </div>
+    </div>
+
+    <div class="highlights-grid">
+      <article class="highlight-card">
+        <span class="tag">Executive Leadership</span>
+        <h3>Prince Mishary bin Saud Hospital</h3>
+        <p>
+          Executive leadership of a referral hospital in Al-Baha Region, with responsibility
+          for hospital operations, service continuity, quality, patient safety, patient experience,
+          and multidisciplinary performance.
+        </p>
+      </article>
+
+      <article class="highlight-card">
+        <span class="tag">Patient Flow</span>
+        <h3>Emergency Department Improvement</h3>
+        <p>
+          Led an applied executive challenge focused on improving Emergency Department patient flow,
+          reducing delays, strengthening escalation, and sustaining safe, high-quality care.
+        </p>
+      </article>
+
+      <article class="highlight-card">
+        <span class="tag">Quality & Safety</span>
+        <h3>National Golden Award for Antimicrobial Stewardship</h3>
+        <p>
+          The hospital received the 2026 National Golden Award for Antimicrobial Stewardship,
+          reflecting institutional focus on safe, evidence-based care and continuous improvement.
+        </p>
+      </article>
+
+      <article class="highlight-card">
+        <span class="tag">Specialized Services</span>
+        <h3>Service Development & Continuity</h3>
+        <p>
+          Supported the development and continuity of specialized hospital services, including
+          burns care, endoscopy, dialysis, and joint replacement pathways.
+        </p>
+      </article>
+
+      <article class="highlight-card">
+        <span class="tag">Accreditation</span>
+        <h3>Continuous Quality Improvement</h3>
+        <p>
+          Sustained executive focus on accreditation readiness, patient safety, performance monitoring,
+          and continuous improvement across hospital services.
+        </p>
+      </article>
+
+      <article class="highlight-card">
+        <span class="tag">Executive Education</span>
+        <h3>CareLead Program for Hospital Directors</h3>
+        <p>
+          Completed the CareLead Program for Hospital Directors in 2026, delivered in collaboration
+          between Health Holding Company and IESE Business School, with emphasis on strategic leadership,
+          decision-making, negotiation, operational finance, and personal leadership.
+        </p>
+      </article>
     </div>
   </div>
 </section>
