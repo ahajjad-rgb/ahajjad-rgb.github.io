@@ -33,7 +33,7 @@
   "image":"https://ahajjad-rgb.github.io/profile.jpg.JPG",
   "sameAs":["https://www.linkedin.com/in/abdullah-s-hajjad-452715159"],
   "jobTitle":"Executive Director, Prince Mishary bin Saud Hospital",
-  "knowsAbout":["Healthcare Leadership","Hospital Management","Hospital Operations","Strategic Leadership","Patient Experience","Healthcare Quality","Patient Safety","Patient Flow","Health Services Management"],
+  "knowsAbout":["Healthcare Leadership","Hospital Management","Hospital Operations","Strategic Leadership","Executive Leadership","Health Transformation","Patient Experience","Healthcare Quality","Patient Safety","Patient Flow","Health Services Management"],
   "alumniOf":[
     {"@type":"CollegeOrUniversity","name":"University of Bisha"},
     {"@type":"CollegeOrUniversity","name":"King Abdulaziz University"},
@@ -252,6 +252,72 @@ h2{
   color:var(--teal)
 }
 
+.research-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:28px;
+  box-shadow:0 8px 28px rgba(9,38,55,.035)
+}
+.research-card h3{margin:0 0 10px}
+.research-card p{margin:0 0 12px;color:var(--muted)}
+.research-card .thesis-title{
+  font-weight:800;
+  color:var(--ink);
+  font-size:1.08rem;
+  margin:14px 0 8px
+}
+.research-card .thesis-title-ar{
+  direction:rtl;
+  text-align:right;
+  font-family:Tahoma,Arial,sans-serif;
+  font-weight:800;
+  color:var(--ink);
+  font-size:1.12rem;
+  margin:14px 0 8px
+}
+.research-meta{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:18px
+}
+.research-meta span{
+  display:inline-block;
+  padding:7px 10px;
+  border-radius:999px;
+  background:var(--soft);
+  border:1px solid var(--line);
+  color:var(--muted);
+  font-size:.85rem;
+  font-weight:700
+}
+
+.awards-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px
+}
+.award-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 8px 28px rgba(9,38,55,.035)
+}
+.award-card .year{
+  color:var(--teal);
+  font-weight:800;
+  font-size:.82rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  margin-bottom:8px
+}
+.award-card h3{margin:0 0 8px}
+.award-card p{margin:0;color:var(--muted)}
+
+
+
 .credentials{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -312,7 +378,7 @@ footer .wrap{
     padding:14px 16px
   }
   .portrait-card span{font-size:.88rem}
-  .grid,.credentials,.highlights-grid{grid-template-columns:1fr}
+  .grid,.credentials,.highlights-grid,.awards-grid{grid-template-columns:1fr}
   .item{grid-template-columns:1fr;gap:4px}
   .navlinks{display:none}
   main section{padding:58px 0}
@@ -331,6 +397,8 @@ footer .wrap{
     <a href="#focus">Leadership Focus</a>
     <a href="#experience">Experience</a>
     <a href="#highlights">Career Highlights</a>
+    <a href="#research">Research</a>
+    <a href="#awards">Awards</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </div>
@@ -571,6 +639,106 @@ footer .wrap{
           Completed the CareLead Program for Hospital Directors in 2026, delivered in collaboration
           between Health Holding Company and IESE Business School, with emphasis on strategic leadership,
           decision-making, negotiation, operational finance, and personal leadership.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Research & Academic Work</div>
+        <h2>Executive leadership and health transformation</h2>
+      </div>
+      <div>
+        <p class="intro">
+          Academic work focused on the role of executive leadership in advancing strategic health transformation
+          and translating organizational capability into measurable outcomes.
+        </p>
+        <p class="intro arabic" lang="ar">
+          يتركز الاهتمام البحثي على دور القيادة التنفيذية في دعم التحول الصحي، وتحقيق الأهداف الاستراتيجية،
+          وتحويل القدرات التنظيمية إلى نتائج قابلة للقياس.
+        </p>
+      </div>
+    </div>
+
+    <article class="research-card">
+      <div class="kicker">Master's Thesis · 2025</div>
+      <h3>University of Bisha · Master of Health Services Management</h3>
+
+      <div class="thesis-title-ar" lang="ar">
+        أثر كفاءة القيادة التنفيذية في تحقيق الأهداف الاستراتيجية للتحول الصحي بالمملكة العربية السعودية
+      </div>
+
+      <div class="thesis-title">
+        The Impact of Executive Leadership Efficiency on Achieving the Strategic Goals of Health Transformation in the Kingdom of Saudi Arabia
+      </div>
+
+      <p>
+        The thesis examines executive leadership efficiency in relation to the strategic objectives
+        of health transformation in Saudi Arabia.
+      </p>
+
+      <div class="research-meta">
+        <span>Executive Leadership</span>
+        <span>Health Transformation</span>
+        <span>Strategic Management</span>
+        <span>Saudi Arabia</span>
+        <span>King Fahd National Library Deposit</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section id="awards" class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Awards & Recognition</div>
+        <h2>Selected institutional recognition and quality milestones</h2>
+      </div>
+      <div>
+        <p class="intro">
+          Selected recognition associated with hospital quality, patient safety,
+          antimicrobial stewardship, and sustained accreditation performance.
+        </p>
+        <p class="intro arabic" lang="ar">
+          أبرز الجوائز ومحطات التقدير المؤسسي المرتبطة بالجودة وسلامة المرضى،
+          وترشيد استخدام المضادات الميكروبية، واستدامة الاعتماد.
+        </p>
+      </div>
+    </div>
+
+    <div class="awards-grid">
+      <article class="award-card">
+        <div class="year">2026</div>
+        <h3>National Golden Award for Antimicrobial Stewardship</h3>
+        <p>
+          Prince Mishary bin Saud Hospital received the National Golden Award for Antimicrobial Stewardship,
+          reflecting the hospital's focus on safe medication practices, quality, and evidence-based care.
+        </p>
+      </article>
+
+      <article class="award-card">
+        <div class="year">Accreditation</div>
+        <h3>Three Consecutive CBAHI Accreditation Cycles</h3>
+        <p>
+          The hospital has maintained accreditation across three consecutive CBAHI cycles,
+          supporting a sustained focus on quality, patient safety, governance, and compliance.
+        </p>
+      </article>
+
+      <article class="award-card">
+        <div class="year">Leadership Development</div>
+        <h3>CareLead Program for Hospital Directors</h3>
+        <p>
+          Completed in 2026 through collaboration between Health Holding Company and IESE Business School,
+          strengthening executive leadership, strategic decision-making, negotiation, operational finance,
+          and personal leadership capabilities.
         </p>
       </article>
     </div>
